@@ -6,7 +6,7 @@ public class ConectaDB {
 	public Connection getConexion() {
 		Connection cn =null;
 		try {
-			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 			cn= DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_huron_azul","root","mysql");
 		} catch (Exception e) {
 			e.printStackTrace();
