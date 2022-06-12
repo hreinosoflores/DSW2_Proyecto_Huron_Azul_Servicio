@@ -7,12 +7,12 @@ Servicio Web SOAP basado en Java configurado para servidores Tomcat v7
 1. Java 8 (jre, jdk 1.8)
 1. Eclipse IDE for Enterprise Java and Web Developers - Latest Release
 
-## Configuración espacio de trabajo
-1. Para java 8
-Windows/Preferences/Java/Installed JREs -> Borrar Todo, añadir jre 1.8
-Windows/Preferences/Java/Compiler -> Compliance level 1.8
-1. Para servidor Tomcat
-Windows/Preferences/Server/Runtime Enviroments -> Add Apache Tomcat v7.0
+## ConfiguraciÃ³n espacio de trabajo
+1. Para java 8   
+Windows/Preferences/Java/Installed JREs -> Borrar Todo, aÃ±adir jre 1.8   
+Windows/Preferences/Java/Compiler -> Compliance level 1.8   
+1. Para servidor Tomcat   
+Windows/Preferences/Server/Runtime Enviroments -> Add Apache Tomcat v7.0   
 
 ## Ejecutando el proyecto
 1. Clonar el repositorio en el espacio de trabajo
